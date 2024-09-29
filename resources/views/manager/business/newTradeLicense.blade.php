@@ -6,5 +6,5 @@
   Pirjatrapur Union Porishod
 @endsection
 @section('adminContent')  
-sdfsdfsdf
+sdfsdfsdfffsd
 @endsection
