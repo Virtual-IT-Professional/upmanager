@@ -1,1 +1,1 @@
-gjhgjhg
+@extends('manager.include')
