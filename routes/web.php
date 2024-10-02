@@ -171,3 +171,8 @@ Route::get('user/login',[
     'uses'  => 'FrontEnd@login',
     'as'    => 'userLogin'
 ]);
+//demo
+Route::get('user/demo',[
+    'uses'  => 'FrontEnd@login',
+    'as'    => 'userLogin'
+]);
