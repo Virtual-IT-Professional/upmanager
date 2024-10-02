@@ -18,6 +18,13 @@ Route::get('/', function () {
     return view('manager.home');
 });
 
+
+Route::get('home',[
+    'uses'  => 'FrontPanel@index',
+    'as'    => 'home'
+]);
+
+
 Route::get('incomeTax/newMember',[
     'uses'  => 'GeneralHolding@newIncomeTaxMember',
     'as'    => 'newIncomeTaxMember'
@@ -161,6 +168,11 @@ Route::get('generalUser/home',[
 ]);
 
 Route::get('user/login',[
+    'uses'  => 'FrontEnd@login',
+    'as'    => 'userLogin'
+]);
+//demo
+Route::get('user/demos',[
     'uses'  => 'FrontEnd@login',
     'as'    => 'userLogin'
 ]);
